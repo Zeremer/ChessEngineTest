@@ -1,0 +1,43 @@
+# This file is a template, and might need editing before it works on your project.
+# Full project: https://gitlab.com/pages/doxygen
+#image: fedora:29
+#image: debian:testing
+#stages:
+#    - build
+build:debian:
+    image: debian:testing
+#    stage: build
+    script:
+        - apt update
+        - apt install -y gcc g++ cmake make libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev
+        #- export CC=/usr/bin/clang
+        #- export CXX=/usr/bin/clang++
+        - mkdir bin
+        - cd bin
+        - cmake ../src
+        - make
+ 
+build:fedora:
+    image: fedora:latest
+#    stage: build
+    script:
+        - dnf install -y gcc gcc-c++ cmake make SDL2-devel SDL2_image-devel SDL2_ttf-devel
+        #- export CC=/usr/bin/clang
+        #- export CXX=/usr/bin/clang++
+        - mkdir bin
+        - cd bin
+        - cmake ../src
+        - make
+        
+pages:
+#    extends: build
+    script:
+        - apt update
+        - apt install -y doxygen graphviz
+        - doxygen doxygen.cfg
+        - mv documentation/html/ public/
+    artifacts:
+        paths:
+            - public
+    only:
+        - master

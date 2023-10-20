@@ -1,0 +1,30 @@
+﻿  bitboard.cpp
+  button.cpp
+C:\Users\hchas\Programming\Repos\provided_chess_extra\src\button.h(7,10): fatal  error C1083: Cannot open include file: 'SDL2/SDL.h': No such file or directory
+  cli.cpp
+  console.cpp
+C:\Users\hchas\Programming\Repos\provided_chess_extra\src\graphics.h(7,10): fatal  error C1083: Cannot open include file: 'SDL2/SDL_rect.h': No such file or directory
+  debug.cpp
+  enginetools.cpp
+  evaluation.cpp
+  graphics.cpp
+C:\Users\hchas\Programming\Repos\provided_chess_extra\src\graphics.h(7,10): fatal  error C1083: Cannot open include file: 'SDL2/SDL_rect.h': No such file or directory
+  main.cpp
+C:\Users\hchas\Programming\Repos\provided_chess_extra\src\main.cpp(3,10): fatal  error C1083: Cannot open include file: 'SDL2/SDL_timer.h': No such file or directory
+  move.cpp
+C:\Users\hchas\Programming\Repos\provided_chess_extra\src\move.cpp(8,22): warning C4018: '<': signed/unsigned mismatch
+  movegen.cpp
+  option.cpp
+  position.cpp
+C:\Users\hchas\Programming\Repos\provided_chess_extra\src\position.cpp(120,37): warning C4101: 'e': unreferenced local variable
+  search.cpp
+C:\Users\hchas\Programming\Repos\provided_chess_extra\src\search.cpp(59,147): warning C4244: '=': conversion from 'double' to '__int64', possible loss of data
+  thread.cpp
+  transpositiontable.cpp
+  types.cpp
+  uci.cpp
+C:\Users\hchas\Programming\Repos\provided_chess_extra\src\window.h(7,10): fatal  error C1083: Cannot open include file: 'SDL2/SDL_video.h': No such file or directory
+  window.cpp
+C:\Users\hchas\Programming\Repos\provided_chess_extra\src\window.h(7,10): fatal  error C1083: Cannot open include file: 'SDL2/SDL_video.h': No such file or directory
+  zhash.cpp
+  Generating Code...

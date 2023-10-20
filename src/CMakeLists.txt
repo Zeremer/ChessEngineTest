@@ -1,0 +1,93 @@
+cmake_minimum_required(VERSION 3.10)
+project(ChessEngine)
+
+set(CMAKE_CXX_STANDARD 17)
+
+include_directories(.)
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+#option(WIN32 "Build win32 using mingw" OFF)
+#option(WIN64 "Build win64 using mingw" OFF)
+#option(Debug "Build Debug Version" OFF)
+#option(Profile "Build Profile Version" OFF)
+#option(Release "Build Release Linux Version" OFF)
+
+# Inspiration: https://github.com/Plethora777/mcpe_viz/blob/master/CMakeLists.txt
+#if(WIN32)
+#    # Win32 Build
+#    add_definitions(-DWIN32)
+#
+#elseif(WIN64)
+#    # Win64 Build
+#    add_definitions(-DWIN32 -DWIN64)
+#    if(MINGW)
+#
+#    endif()
+#
+#else()
+#    # Linux/MacOS build
+#
+#endif()
+#
+#find_program(SDL2_CONFIG NAMES sdl2-config)
+#if (NOT SDL2_CONFIG)
+#    message( FATAL_ERROR "Failed to locate sdl2-config." )
+#else()
+#    message( STATUS "Found sdl2-config: ${SDL2_CONFIG}" )
+#endif()
+#exec_program(${SDL2_CONFIG} ARGS --libs OUTPUT_VARIABLE SDL2_LIBRARIES)
+
+add_subdirectory("./libcuckoo" libcuckoo)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lSDL2 -lSDL2_image -lSDL2_ttf")
+
+add_executable(ChessEngine
+        bitboard.cpp bitboard.h
+        cli.cpp cli.h
+        CMakeLists.txt
+        console.cpp console.h
+        coutsync.h
+        debug.cpp debug.h
+        enginetools.cpp enginetools.h
+        main.cpp option.h
+        position.cpp position.h
+        thread.cpp thread.h
+        types.cpp types.h
+        uci.cpp uci.h
+        search.cpp search.h
+        evaluation.cpp evaluation.h
+        movegen.cpp movegen.h
+        move.cpp move.h
+        zhash.cpp zhash.h
+        transpositiontable.cpp transpositiontable.h
+        window.cpp window.h graphics.cpp graphics.h
+        libcuckoo moodycamel-concurrentqueue/concurrentqueue.h debugging.h button.h button.cpp thread_win32.h)
+
+#INCLUDE(FindPkgConfig)
+#pkg_check_modules(SDL2 REQUIRED sdl2)
+#pkg_check_modules(SDL2_IMG REQUIRED SDL2_image)
+#pkg_check_modules(SDL2_TTF REQUIRED SDL2_ttf)
+
+#include_directories(${JUNCTION_ALL_INCLUDE_DIRS})
+find_package(SDL2 REQUIRED)
+include_directories(${SDL2_INCLUDE_DIRS}
+        ${SDL2_IMG_INCLUDE_DIRS}
+        ${SDL2_TTF_INCLUDE_DIRS})
+
+link_directories (${SDL2_LIBRARY_DIRS}
+        ${SDL2_IMG_LIBRARY_DIRS}
+        ${SDL2_TTF_LIBRARY_DIRS})
+
+find_package(Threads REQUIRED)
+
+target_link_libraries(ChessEngine Threads::Threads
+        ${SDL2_LIBRARIES}
+        ${SDL2_IMG_LIBRARIES}
+        ${SDL2_TTF_LIBRARIES})
+
+add_custom_command(TARGET ChessEngine PRE_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_SOURCE_DIR}/sdlroot $<TARGET_FILE_DIR:ChessEngine>)
+
+#add_custom_command(TARGET ChessEngine PRE_BUILD
+#        COMMAND ${CMAKE_COMMAND} -E copy_directory
+#        ${CMAKE_SOURCE_DIR}/bin $<TARGET_FILE_DIR:ChessEngine>)
+

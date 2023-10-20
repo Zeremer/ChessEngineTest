@@ -1,0 +1,11 @@
+This text file is for licensing material for open source graphics that were used and require appropriate
+credit to be given to the original author.
+
+The following two files were made by Sharm and were obtained from 
+https://opengameart.org/content/boardgame-tiles:
+board.png
+pieces.png
+
+The license for these files is CC-BY 3.0/OGA-BY 3.0 which can be found below:
+CC-BY 3.0  - https://creativecommons.org/licenses/by/3.0
+OGA-BY 3.0 - https://opengameart.org/content/oga-by-30-faq
