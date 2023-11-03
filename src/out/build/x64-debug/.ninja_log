@@ -41,3 +41,5 @@
 1398	3195	7206852388818355	CMakeFiles/ChessEngine.dir/window.cpp.obj	7265d231dcc2ac6a
 1383	3355	7206852390418091	CMakeFiles/ChessEngine.dir/transpositiontable.cpp.obj	94bd34baaad17fb5
 3355	3928	7206852393719650	ChessEngine.exe	e05c629015d74352
+13	1493	7206877398061684	CMakeFiles/ChessEngine.dir/main.cpp.obj	9c6e72c1dcd7e476
+1495	2094	7206877402625193	ChessEngine.exe	e05c629015d74352

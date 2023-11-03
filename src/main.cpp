@@ -53,7 +53,7 @@ int main(int argc, char* argv[]) {
         }
         else if(interfaceType == "quit")break;
         else {
-            syncCout << "Invalid Interface. Please use uci or cli" << syncEndl;
+            syncCout << "Invalid Interface. Please use uci or cli (I found typing gui brings up the gui)" << syncEndl;
         }
     }
 
