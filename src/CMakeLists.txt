@@ -73,7 +73,7 @@ set(THREADS_PREFER_PTHREAD_FLAG ON)
 
 
 add_subdirectory("./libcuckoo" libcuckoo)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lSDL2 -lSDL2_image -lSDL2_ttf")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lSDL2 -lSDL2_image -lSDL2_ttf")
 
 add_executable(ChessEngine
         bitboard.cpp bitboard.h
@@ -106,13 +106,13 @@ add_executable(ChessEngine
 find_package(SDL2 REQUIRED)
 find_package(SDL2_image REQUIRED)
 find_package(SDL2_ttf REQUIRED)
-include_directories(${SDL2_INCLUDE_DIRS}
-        ${SDL2_IMG_INCLUDE_DIRS}
-        ${SDL2_TTF_INCLUDE_DIRS})
+#include_directories(${SDL2_INCLUDE_DIRS}
+#        ${SDL2_IMG_INCLUDE_DIRS}
+#        ${SDL2_TTF_INCLUDE_DIRS})
 
-link_directories (${SDL2_LIBRARY_DIRS}
-        ${SDL2_IMG_LIBRARY_DIRS}
-        ${SDL2_TTF_LIBRARY_DIRS})
+#link_directories (${SDL2_LIBRARY_DIRS}
+#        ${SDL2_IMG_LIBRARY_DIRS}
+#        ${SDL2_TTF_LIBRARY_DIRS})
 
 find_package(Threads REQUIRED)
 
@@ -124,6 +124,10 @@ target_link_libraries(ChessEngine Threads::Threads SDL2::SDL2 SDL2::SDL2main SDL
 add_custom_command(TARGET ChessEngine PRE_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_directory
         ${CMAKE_SOURCE_DIR}/sdlroot $<TARGET_FILE_DIR:ChessEngine>)
+
+add_custom_command(TARGET ChessEngine POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_SOURCE_DIR}/SDL2_x64_dlls $<TARGET_FILE_DIR:ChessEngine>)
 
 #add_custom_command(TARGET ChessEngine PRE_BUILD
 #        COMMAND ${CMAKE_COMMAND} -E copy_directory
