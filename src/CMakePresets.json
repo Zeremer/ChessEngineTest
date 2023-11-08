@@ -8,7 +8,12 @@
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/out/build/${presetName}",
       "installDir": "${sourceDir}/out/install/${presetName}",
-      "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug" },
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "SDL2_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_image_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_ttf_DIR": "${sourceDir}/SDL2/cmake/"
+      },
       "condition": {
         "type": "equals",
         "lhs": "${hostSystemName}",
@@ -23,7 +28,12 @@
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/out/build/${presetName}",
       "installDir": "${sourceDir}/out/install/${presetName}",
-      "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug" },
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "SDL2_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_image_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_ttf_DIR": "${sourceDir}/SDL2/cmake/"
+      },
       "condition": {
         "type": "equals",
         "lhs": "${hostSystemName}",
@@ -40,7 +50,10 @@
       "installDir": "${sourceDir}/out/install/${presetName}",
       "cacheVariables": {
         "CMAKE_C_COMPILER": "cl.exe",
-        "CMAKE_CXX_COMPILER": "cl.exe"
+        "CMAKE_CXX_COMPILER": "cl.exe",
+        "SDL2_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_image_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_ttf_DIR": "${sourceDir}/SDL2/cmake/"
       },
       "condition": {
         "type": "equals",
@@ -57,14 +70,24 @@
         "value": "x64",
         "strategy": "external"
       },
-      "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug" }
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "SDL2_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_image_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_ttf_DIR": "${sourceDir}/SDL2/cmake/"
+      }
     },
     {
       "name": "x64-release",
       "displayName": "x64 Release",
       "description": "Target Windows (64-bit) with the Visual Studio development environment. (RelWithDebInfo)",
       "inherits": "x64-debug",
-      "cacheVariables": { "CMAKE_BUILD_TYPE": "Release" }
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "SDL2_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_image_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_ttf_DIR": "${sourceDir}/SDL2/cmake/"
+      }
     },
     {
       "name": "x86-debug",
@@ -75,14 +98,24 @@
         "value": "x86",
         "strategy": "external"
       },
-      "cacheVariables": { "CMAKE_BUILD_TYPE": "Debug" }
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "SDL2_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_image_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_ttf_DIR": "${sourceDir}/SDL2/cmake/"
+      }
     },
     {
       "name": "x86-release",
       "displayName": "x86 Release",
       "description": "Target Windows (32-bit) with the Visual Studio development environment. (RelWithDebInfo)",
       "inherits": "x86-debug",
-      "cacheVariables": { "CMAKE_BUILD_TYPE": "Release" }
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "SDL2_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_image_DIR": "${sourceDir}/SDL2/cmake/",
+        "SDL2_ttf_DIR": "${sourceDir}/SDL2/cmake/"
+      }
     }
   ]
 }

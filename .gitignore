@@ -110,6 +110,7 @@ fabric.properties
 # Other
 out/
 bin/
+src/out
 
 ##############################
 ### IDE Specific           ###

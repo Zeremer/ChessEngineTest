@@ -39,8 +39,6 @@ set(THREADS_PREFER_PTHREAD_FLAG ON)
 #exec_program(${SDL2_CONFIG} ARGS --libs OUTPUT_VARIABLE SDL2_LIBRARIES)
 
 
-
-
 #cmake_minimum_required(VERSION 3.5)
 #project(mygame)
 
