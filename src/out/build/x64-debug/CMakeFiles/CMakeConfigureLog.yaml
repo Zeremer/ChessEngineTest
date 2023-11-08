@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-qocsz0"
-      binary: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-qocsz0"
+      source: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-nt3wkb"
+      binary: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-nt3wkb"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -119,10 +119,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-qocsz0
+        Change Dir: C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-nt3wkb
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_6f41c && [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6f41c.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_6f41c.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
-        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6f41c.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_6f41c.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_6f41c.exe /implib:cmTC_6f41c.lib /pdb:cmTC_6f41c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_97f05 && [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_97f05.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_97f05.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_97f05.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_97f05.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_97f05.exe /implib:cmTC_97f05.lib /pdb:cmTC_97f05.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -134,8 +134,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-3vgk3q"
-      binary: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-3vgk3q"
+      source: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-i1xjfg"
+      binary: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-i1xjfg"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -144,10 +144,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-3vgk3q
+        Change Dir: C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-i1xjfg
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_6b5a1 && [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6b5a1.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_6b5a1.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6b5a1.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_6b5a1.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_6b5a1.exe /implib:cmTC_6b5a1.lib /pdb:cmTC_6b5a1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_248ba && [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_248ba.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_248ba.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_248ba.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_248ba.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_248ba.exe /implib:cmTC_248ba.lib /pdb:cmTC_248ba.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -161,8 +161,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-ydciqv"
-      binary: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-ydciqv"
+      source: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-6vlwq2"
+      binary: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-6vlwq2"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -171,12 +171,12 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-ydciqv
+        Change Dir: C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-6vlwq2
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_59ffb && [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_59ffb.dir\\src.c.obj /FdCMakeFiles\\cmTC_59ffb.dir\\ /FS -c C:\\Users\\hchas\\Programming\\Repos\\ChessEngineTest\\src\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-ydciqv\\src.c
-        FAILED: CMakeFiles/cmTC_59ffb.dir/src.c.obj 
-        "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_59ffb.dir\\src.c.obj /FdCMakeFiles\\cmTC_59ffb.dir\\ /FS -c C:\\Users\\hchas\\Programming\\Repos\\ChessEngineTest\\src\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-ydciqv\\src.c
-        C:\\Users\\hchas\\Programming\\Repos\\ChessEngineTest\\src\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-ydciqv\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_88873 && [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_88873.dir\\src.c.obj /FdCMakeFiles\\cmTC_88873.dir\\ /FS -c C:\\Users\\hchas\\Programming\\Repos\\ChessEngineTest\\src\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-6vlwq2\\src.c
+        FAILED: CMakeFiles/cmTC_88873.dir/src.c.obj 
+        "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_88873.dir\\src.c.obj /FdCMakeFiles\\cmTC_88873.dir\\ /FS -c C:\\Users\\hchas\\Programming\\Repos\\ChessEngineTest\\src\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-6vlwq2\\src.c
+        C:\\Users\\hchas\\Programming\\Repos\\ChessEngineTest\\src\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-6vlwq2\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -190,8 +190,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-fh98br"
-      binary: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-fh98br"
+      source: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-9z1qw8"
+      binary: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-9z1qw8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -200,13 +200,13 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-fh98br
+        Change Dir: C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-9z1qw8
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_763a1 && [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_763a1.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_763a1.dir\\ /FS -c C:\\Users\\hchas\\Programming\\Repos\\ChessEngineTest\\src\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-fh98br\\CheckFunctionExists.c
-        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_763a1.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_763a1.dir\\CheckFunctionExists.c.obj  /out:cmTC_763a1.exe /implib:cmTC_763a1.lib /pdb:cmTC_763a1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_763a1.exe 
-        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_763a1.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_763a1.dir\\CheckFunctionExists.c.obj  /out:cmTC_763a1.exe /implib:cmTC_763a1.lib /pdb:cmTC_763a1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_763a1.dir\\CheckFunctionExists.c.obj /out:cmTC_763a1.exe /implib:cmTC_763a1.lib /pdb:cmTC_763a1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_763a1.dir/intermediate.manifest CMakeFiles\\cmTC_763a1.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_16215 && [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_16215.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_16215.dir\\ /FS -c C:\\Users\\hchas\\Programming\\Repos\\ChessEngineTest\\src\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-9z1qw8\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_16215.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_16215.dir\\CheckFunctionExists.c.obj  /out:cmTC_16215.exe /implib:cmTC_16215.lib /pdb:cmTC_16215.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_16215.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_16215.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_16215.dir\\CheckFunctionExists.c.obj  /out:cmTC_16215.exe /implib:cmTC_16215.lib /pdb:cmTC_16215.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_16215.dir\\CheckFunctionExists.c.obj /out:cmTC_16215.exe /implib:cmTC_16215.lib /pdb:cmTC_16215.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_16215.dir/intermediate.manifest CMakeFiles\\cmTC_16215.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
         ninja: build stopped: subcommand failed.
         
@@ -221,8 +221,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-epfiez"
-      binary: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-epfiez"
+      source: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-hga8vb"
+      binary: "C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-hga8vb"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -231,13 +231,13 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-epfiez
+        Change Dir: C:/Users/hchas/Programming/Repos/ChessEngineTest/src/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-hga8vb
         
-        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_2e5b5 && [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2e5b5.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_2e5b5.dir\\ /FS -c C:\\Users\\hchas\\Programming\\Repos\\ChessEngineTest\\src\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-epfiez\\CheckFunctionExists.c
-        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2e5b5.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_2e5b5.dir\\CheckFunctionExists.c.obj  /out:cmTC_2e5b5.exe /implib:cmTC_2e5b5.lib /pdb:cmTC_2e5b5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        FAILED: cmTC_2e5b5.exe 
-        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2e5b5.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_2e5b5.dir\\CheckFunctionExists.c.obj  /out:cmTC_2e5b5.exe /implib:cmTC_2e5b5.lib /pdb:cmTC_2e5b5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2e5b5.dir\\CheckFunctionExists.c.obj /out:cmTC_2e5b5.exe /implib:cmTC_2e5b5.lib /pdb:cmTC_2e5b5.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2e5b5.dir/intermediate.manifest CMakeFiles\\cmTC_2e5b5.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_7dd2c && [1/2] "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7dd2c.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_7dd2c.dir\\ /FS -c C:\\Users\\hchas\\Programming\\Repos\\ChessEngineTest\\src\\out\\build\\x64-debug\\CMakeFiles\\CMakeScratch\\TryCompile-hga8vb\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7dd2c.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_7dd2c.dir\\CheckFunctionExists.c.obj  /out:cmTC_7dd2c.exe /implib:cmTC_7dd2c.lib /pdb:cmTC_7dd2c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_7dd2c.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7dd2c.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_7dd2c.dir\\CheckFunctionExists.c.obj  /out:cmTC_7dd2c.exe /implib:cmTC_7dd2c.lib /pdb:cmTC_7dd2c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7dd2c.dir\\CheckFunctionExists.c.obj /out:cmTC_7dd2c.exe /implib:cmTC_7dd2c.lib /pdb:cmTC_7dd2c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7dd2c.dir/intermediate.manifest CMakeFiles\\cmTC_7dd2c.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
         ninja: build stopped: subcommand failed.
         
