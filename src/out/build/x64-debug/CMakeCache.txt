@@ -90,7 +90,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Users/hchas/Programming/Repos/ChessEngineTest/src/o
 CMAKE_LINKER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/link.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~1/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -205,13 +205,13 @@ ChessEngine_IS_TOP_LEVEL:STATIC=ON
 ChessEngine_SOURCE_DIR:STATIC=C:/Users/hchas/Programming/Repos/ChessEngineTest/src
 
 //The directory containing a CMake configuration file for SDL2.
-SDL2_DIR:PATH=C:/Users/hchas/Programming/Tools/SDL2/cmake
+SDL2_DIR:PATH=C:/Program Files (x86)/SDL2/cmake
 
 //The directory containing a CMake configuration file for SDL2_image.
-SDL2_image_DIR:PATH=C:/Users/hchas/Programming/Tools/SDL2_image/cmake
+SDL2_image_DIR:PATH=C:/Program Files (x86)/SDL2_image/cmake
 
 //The directory containing a CMake configuration file for SDL2_ttf.
-SDL2_ttf_DIR:PATH=C:/Users/hchas/Programming/Tools/SDL2_ttf/cmake
+SDL2_ttf_DIR:PATH=C:/Program Files (x86)/SDL2_ttf/cmake
 
 
 ########################

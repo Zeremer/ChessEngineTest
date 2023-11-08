@@ -34,28 +34,28 @@ int main(int argc, char* argv[]) {
         // to enable debug mode pass it as 1st command line arg
         if (argc > 1 && (strcasecmp(argv[1], "debug") == 0)) Debug::setIsDebugLogEnabled(true);
 
-        Console::printStartMsg();
+        //Console::printStartMsg();
 
-        std::string interfaceType;
-        getline(std::cin,interfaceType);
+        //std::string interfaceType;
+        //getline(std::cin,interfaceType);
 
         // run using uci commands directly on a command line
-        if(interfaceType == "uci"){
-            UCI::loop(argc,argv);
-            break;
-        }
+        //if(interfaceType == "uci"){
+            //UCI::loop(argc,argv);
+            //break;
+        //}
         // run from an GUI window powered by SDL2
-        else if(interfaceType == "gui"){
+        //else if(interfaceType == "gui"){
             // initial setup for SDL window for GUI
             std::shared_ptr<Window> gameWindow(new Window());
             gameWindow->gameLoop();
             break;
         }
-        else if(interfaceType == "quit")break;
-        else {
-            syncCout << "Invalid Interface. Please use uci or cli (I found typing gui brings up the gui)" << syncEndl;
-        }
-    }
+        //else if(interfaceType == "quit")break;
+        //else {
+            //syncCout << "Invalid Interface. Please use uci or cli (I found typing gui brings up the gui)" << syncEndl;
+        //}
+    //}
 
     return 0;
 }
